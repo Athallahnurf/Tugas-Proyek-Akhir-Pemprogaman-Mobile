@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventMenu</name>
+    <events>
+        <event-block sid="445756480680695">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="516063813925426" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="436200078391496" type="Audio" />
+                <action id="5" name="Check item exists" sid="198851398359354" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="705197007133700">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="948843722629097" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="191048500658508" type="Audio">
+                            <param id="0" name="Audio file">MattOglseby - 1</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="454271010130788" type="TmblMusic">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="202744376398708">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="899953406676216" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;off&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="628248729535258" type="TmblMusic">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="276152290140215">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="742773574850762" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;off&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="910296464239295" type="TmblSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="993326634927267">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="477466619891276" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="291421035984413" type="TmblSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="870483596515495">
+            <conditions>
+                <condition id="3" name="On touched object" sid="289540812082524" type="Touch">
+                    <param id="0" name="Object">TombolMain</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Start" sid="472560615102812" type="TombolMain">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="572230415490330" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="316120384541371" type="System">
+                    <param id="0" name="Layout">level 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="302837936780766">
+            <conditions>
+                <condition id="17" name="On tap object" sid="717495964699677" type="Touch">
+                    <param id="0" name="Object">TmblMusic</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="191769019893409">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="504497738215493" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="759759021853024" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="158215958617444" type="System">
+                            <param id="0" name="Seconds">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="772981714115394" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Value">&quot;off&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="777252887616581" type="TmblMusic">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="714170829478892">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="145218252085935" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;off&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="977214643939832" type="Audio">
+                            <param id="0" name="Audio file">MattOglseby - 1</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="278805123694308" type="System">
+                            <param id="0" name="Seconds">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="196194980556723" type="System">
+                            <param id="0" name="Variable">music</param>
+                            <param id="1" name="Value">&quot;on&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="834662450521007" type="TmblMusic">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="619906412948935">
+            <conditions>
+                <condition id="17" name="On tap object" sid="571027851649345" type="Touch">
+                    <param id="0" name="Object">TmblSound</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="831129530039124">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="431904263139153" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="977694822403185" type="System">
+                            <param id="0" name="Seconds">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="405317852506842" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Value">&quot;off&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="915814451194537" type="TmblSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="536218891401543">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="196123466418506" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;off&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="590736787400672" type="System">
+                            <param id="0" name="Seconds">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="742789356893131" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Value">&quot;on&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="628041721852852" type="TmblSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="791103375021295">
+            <conditions>
+                <condition id="9" name="On item exists" sid="424953932244038" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Get item" sid="811560126507376" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="503235003469676">
+            <conditions>
+                <condition id="1" name="On item get" sid="306875107557571" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="747827378571809" type="System">
+                    <param id="0" name="Variable">Level</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

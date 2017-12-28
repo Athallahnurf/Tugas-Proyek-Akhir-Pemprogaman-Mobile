@@ -1,0 +1,2198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>116buoai31f8q</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1136</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">NW.js</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="sandbeach2074067_960_" sid="6049404416063626">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3126763112203777" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Fauzi\Pictures\project\sand-beach-2074067_960_720.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="4764871984615186">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="985021426877583">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_04.png" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="9220047603085638">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_08.png" />
+        </object-type>
+        <object-type name="TiledBackground3" sid="3924396966606626">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="286789148773857">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_08.png" />
+        </object-type>
+        <object-type name="playerGrey_stand" sid="7963603406740546">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="607074291113100">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1396475626407066" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Players\Player Grey\playerGrey_stand.png">
+                        <collision-poly>
+                            <point x="0.138889" y="0.111111" />
+                            <point x="0.5" y="0" />
+                            <point x="0.861111" y="0.111111" />
+                            <point x="0.972222" y="0.488889" />
+                            <point x="0.694444" y="0.755556" />
+                            <point x="0.5" y="0.977778" />
+                            <point x="0.305556" y="0.755556" />
+                            <point x="0.0277778" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlayerBiru" sid="314890817625076">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="key" sid="237841644690589" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="192454399604156">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="383023333911432">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="645783074238764">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="637268183362148" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Players\Player Green\playerGreen_stand.png" />
+                </animation>
+                <animation framecount="3" loop="1" name="walk" pingpong="0" repeatcount="1" repeatto="0" sid="909190215827656" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Players\Player Green\playerGreen_walk1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Players\Player Green\playerGreen_walk2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Players\Player Green\playerGreen_walk3.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="jump" pingpong="0" repeatcount="1" repeatto="0" sid="730677244839268" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Players\Player Green\playerGreen_up2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="fall" pingpong="0" repeatcount="1" repeatto="0" sid="103605895370384" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Players\Player Green\playerGreen_fall.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="945049206873544" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Players\Player Green\playerGreen_dead.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="957808422419279">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="tileGreen_" sid="558935349685395">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="343183559855270">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="842179363427730" speed="0">
+                    <frame duration="1" hotspotX="3.14063" hotspotY="-0.40625" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_24.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.359375" y="0.640625" />
+                            <point x="0.140625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_25.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.859375" y="0.5" />
+                            <point x="0.640625" y="0.640625" />
+                            <point x="0.5" y="0.703125" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_" sid="450383612161967">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="591922704548831">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="712173426678124" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_06.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_2" sid="895184562384248">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="462560495907860" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_06.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_3" sid="781604756378912">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="857301125018732">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="738705775084230" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_07.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_4" sid="421147957966841">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="907598901468333">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284699805878448" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_06.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_5" sid="555549513207601">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="359399827474630">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="869592659277095" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_05.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemyFloating_" sid="772691562794348">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="608721128333219" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemyFloating_1.png">
+                        <collision-poly>
+                            <point x="0.0238095" y="0.025" />
+                            <point x="0.97619" y="0.025" />
+                            <point x="0.97619" y="0.975" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0238095" y="0.975" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemyFlying_" sid="162774883720309">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="443438055481030">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="216972845622767">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="386938788115171">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="320260382765717" speed="7">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemyFlying_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemyFlying_2.png">
+                        <collision-poly>
+                            <point x="0.21875" y="0.368421" />
+                            <point x="0.78125" y="0.368421" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.734375" y="0.552632" />
+                            <point x="0.5" y="1" />
+                            <point x="0.265625" y="0.552632" />
+                            <point x="0.03125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemyFlying_3.png">
+                        <collision-poly>
+                            <point x="0.28125" y="0.418605" />
+                            <point x="0.5" y="0.325581" />
+                            <point x="0.71875" y="0.418605" />
+                            <point x="0.734375" y="0.488372" />
+                            <point x="0.734375" y="0.604651" />
+                            <point x="0.5" y="0.883721" />
+                            <point x="0.265625" y="0.604651" />
+                            <point x="0.265625" y="0.488372" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="879242636518187" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.52" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemyFlying_4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemyWalking_" sid="277540612379250">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="move" sid="906627173574010" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="238019914501119">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="719600897372890">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357191197021190" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemyWalking_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemyWalking_2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="990052467643841" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="1" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemyWalking_4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_6" sid="565510682495820">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="235530718478986">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640368883754991" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_10.png">
+                        <collision-poly>
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.5" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_7" sid="274459664346498">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="817459996917020" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_04.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_8" sid="881361904835073">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="813225814999427">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="841590431533406" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_08.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_9" sid="701573364259542">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="662020052145494" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_20.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_10" sid="889766211458842">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="287919238253828" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_13.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_11" sid="726606055648456">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="321561297941388">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="621613391268965" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_16.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.890625" />
+                            <point x="0.3125" y="0.6875" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_17.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0.6875" y="0.6875" />
+                            <point x="0.5" y="0.875" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_12" sid="863703799123763">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="492696125592252">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="468335497583165" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_25.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.3125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_13" sid="838077066782119">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="441614545126215">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773063549753426" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_26.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.6875" y="0.5" />
+                            <point x="0.578125" y="0.578125" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemySwimming_" sid="365449283192639">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="634252274284753">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="337828526251337" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemySwimming_1.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemySwimming_2.png">
+                        <collision-poly>
+                            <point x="0.954545" y="0.5" />
+                            <point x="0.704545" y="0.59375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.113636" y="0.84375" />
+                            <point x="0" y="0.5" />
+                            <point x="0.113636" y="0.15625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.704545" y="0.40625" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Enemies\enemySwimming_3.png">
+                        <collision-poly>
+                            <point x="1" y="0.5" />
+                            <point x="0.717391" y="0.59375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.108696" y="0.84375" />
+                            <point x="0" y="0.5" />
+                            <point x="0.108696" y="0.15625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.717391" y="0.40625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_14" sid="106893738728334">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="653315603722170">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="251082930671698" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_13.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yellowGem" sid="636162700687652">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="279736232520789" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Items\yellowGem.png">
+                        <collision-poly>
+                            <point x="0.181818" y="0.181818" />
+                            <point x="0.5" y="0" />
+                            <point x="0.818182" y="0.181818" />
+                            <point x="1" y="0.5" />
+                            <point x="0.818182" y="0.818182" />
+                            <point x="0.5" y="1" />
+                            <point x="0.181818" y="0.818182" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="YellowSapphire" sid="290505667040459">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149434340355075" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501818" original-source="C:\Users\Fauzi\Pictures\project\Yellow-Sapphire.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bitcoin2233747_960_" sid="212788731603362">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653710684736366" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Pictures\project\bitcoin-2233747_960_720.png">
+                        <collision-poly>
+                            <point x="0.145833" y="0.145833" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.145833" />
+                            <point x="1" y="0.5" />
+                            <point x="0.854167" y="0.854167" />
+                            <point x="0.5" y="1" />
+                            <point x="0.145833" y="0.854167" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bitcoin" sid="866829763923503">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834671847811809" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Pictures\project\bitcoin-1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bitcoin2546751_960_" sid="463537377344387">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="199873895988186" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Pictures\project\bitcoin-2546751_960_720.png">
+                        <collision-poly>
+                            <point x="0.177778" y="0.177778" />
+                            <point x="0.5" y="0.0444444" />
+                            <point x="0.822222" y="0.177778" />
+                            <point x="0.955556" y="0.5" />
+                            <point x="0.822222" y="0.822222" />
+                            <point x="0.5" y="0.955556" />
+                            <point x="0.177778" y="0.822222" />
+                            <point x="0.0444444" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="618750924750833">
+            <plugin id="Spritefont2" />
+            <instance-variables>
+                <instance-variable name="type" sid="799117283285440" type="string" />
+            </instance-variables>
+            <texture />
+        </object-type>
+        <object-type name="bitcoin2" sid="166942884357036">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568896475892901" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Pictures\project\bitcoin-1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bitcoin2546751_960_2" sid="605725086060265">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="574526544009471" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Pictures\project\bitcoin-2546751_960_720.png">
+                        <collision-poly>
+                            <point x="0.177778" y="0.177778" />
+                            <point x="0.5" y="0.0444444" />
+                            <point x="0.822222" y="0.177778" />
+                            <point x="0.955556" y="0.5" />
+                            <point x="0.822222" y="0.822222" />
+                            <point x="0.5" y="0.955556" />
+                            <point x="0.177778" y="0.822222" />
+                            <point x="0.0444444" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hudHeart_full" sid="134625229492155">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="204649549489453" speed="5">
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.509434" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\hudHeart_full.png">
+                        <collision-poly>
+                            <point x="0.0819672" y="0.0943396" />
+                            <point x="0.491803" y="0.0754717" />
+                            <point x="0.918033" y="0.0943396" />
+                            <point x="0.967213" y="0.490566" />
+                            <point x="0.786885" y="0.754717" />
+                            <point x="0.491803" y="0.981132" />
+                            <point x="0.213115" y="0.754717" />
+                            <point x="0.0327869" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bonus" sid="435978795083170">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="393062436181050">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="980392549881442">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624344936915987" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\bonus.png">
+                        <collision-poly>
+                            <point x="0.18" y="0.25" />
+                            <point x="0.5" y="0.166667" />
+                            <point x="0.92" y="0.111111" />
+                            <point x="0.96" y="0.5" />
+                            <point x="0.96" y="0.944444" />
+                            <point x="0.5" y="0.944444" />
+                            <point x="0.16" y="0.777778" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bonus2" sid="813828629749244">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="178326331611006">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="881382309917400">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="107790047500404" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\bonus.png">
+                        <collision-poly>
+                            <point x="0.18" y="0.25" />
+                            <point x="0.5" y="0.166667" />
+                            <point x="0.92" y="0.111111" />
+                            <point x="0.96" y="0.5" />
+                            <point x="0.96" y="0.944444" />
+                            <point x="0.5" y="0.944444" />
+                            <point x="0.16" y="0.777778" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Window" sid="169119630649524">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="196011445648550" speed="5">
+                    <frame duration="1" hotspotX="0.500829" hotspotY="0.501171" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\Window.png">
+                        <collision-poly>
+                            <point x="0.0116086" y="0.0163934" />
+                            <point x="0.499171" y="0.00234192" />
+                            <point x="0.985075" y="0.0210773" />
+                            <point x="0.980099" y="0.971897" />
+                            <point x="0.0165837" y="0.976581" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="complete" sid="560483060146205">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181112220322796" speed="0">
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\complete.png">
+                        <collision-poly>
+                            <point x="0.0827887" y="0.311475" />
+                            <point x="0.498911" y="0" />
+                            <point x="0.917211" y="0.311475" />
+                            <point x="0.923747" y="0.5" />
+                            <point x="0.954248" y="0.827869" />
+                            <point x="0.498911" y="0.606557" />
+                            <point x="0.043573" y="0.836066" />
+                            <point x="0.0784314" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gameover.png">
+                        <collision-poly>
+                            <point x="0.0827887" y="0.311475" />
+                            <point x="0.498911" y="0.00819672" />
+                            <point x="0.917211" y="0.311475" />
+                            <point x="0.923747" y="0.5" />
+                            <point x="0.954248" y="0.827869" />
+                            <point x="0.498911" y="0.606557" />
+                            <point x="0.043573" y="0.836066" />
+                            <point x="0.0784314" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Restart" sid="378009403041546">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="170517242541027" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button\Button_11.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0" />
+                            <point x="0.913043" y="0.0833333" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0.0108696" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button\Button_12.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0" />
+                            <point x="0.913043" y="0.0833333" />
+                            <point x="0.978261" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0.0108696" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="717202536908838">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="950328357158809">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="tileYellow_15" sid="298571033654782">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="675364741099470">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="243490364784467" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_12.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_16" sid="653515132253540">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775700895069879" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_21.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileYellow_17" sid="357208448811698">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840109344266236" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Yellow tiles\tileYellow_19.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flagRed_up" sid="733053675513469">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="162023547618466" speed="5">
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.508197" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Other\flagRed_up.png">
+                        <collision-poly>
+                            <point x="0.0338983" y="0.0327869" />
+                            <point x="0.491525" y="0.163934" />
+                            <point x="0.711864" y="0.278689" />
+                            <point x="0.135593" y="0.491803" />
+                            <point x="0.40678" y="0.42623" />
+                            <point x="0.491525" y="0.42623" />
+                            <point x="0.0169492" y="0.983607" />
+                            <point x="0" y="0.491803" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="signArrow_TR" sid="647737490256459">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974942386320576" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Other\signArrow_TR.png">
+                        <collision-poly>
+                            <point x="0.333333" y="0.254545" />
+                            <point x="0.5" y="0.0181818" />
+                            <point x="0.904762" y="0.0727273" />
+                            <point x="1" y="0.490909" />
+                            <point x="0.690476" y="0.763636" />
+                            <point x="0.5" y="1" />
+                            <point x="0.309524" y="0.763636" />
+                            <point x="0.0238095" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="keyGreen" sid="842018451359116">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950948012054909" speed="5">
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Items\keyGreen.png">
+                        <collision-poly>
+                            <point x="0.310345" y="0.3" />
+                            <point x="0.482759" y="0.0333333" />
+                            <point x="0.896552" y="0.1" />
+                            <point x="0.965517" y="0.5" />
+                            <point x="0.689655" y="0.7" />
+                            <point x="0.482759" y="0.7" />
+                            <point x="0.0344828" y="0.966667" />
+                            <point x="0.310345" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="key" sid="187208573723480">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="428807271845218" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0.509434" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\key0.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0.509434" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\key1.png">
+                        <collision-poly>
+                            <point x="0.0853659" y="0.264151" />
+                            <point x="0.256098" y="0.490566" />
+                            <point x="0.0243902" y="0.924528" />
+                            <point x="0.0792683" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0" hotspotY="0.509434" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\key2.png">
+                        <collision-poly>
+                            <point x="0.0853659" y="0.264151" />
+                            <point x="0.5" y="0.113208" />
+                            <point x="0.609756" y="0.490566" />
+                            <point x="0.5" y="0.698113" />
+                            <point x="0.0243902" y="0.924528" />
+                            <point x="0.0792683" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0" hotspotY="0.511111" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\key3.png">
+                        <collision-poly>
+                            <point x="0.0880503" y="0.311111" />
+                            <point x="0.496855" y="0.0666667" />
+                            <point x="0.962264" y="0.133333" />
+                            <point x="0.987421" y="0.488889" />
+                            <point x="0.918239" y="0.711111" />
+                            <point x="0.496855" y="0.733333" />
+                            <point x="0.0188679" y="0.933333" />
+                            <point x="0.0880503" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="doorGreen_top" sid="938464690871296">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="199275514420263" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Other\doorGreen_top.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Other\doorOpen_top.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="doorGreen_lock" sid="955951034494347">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="338078401910322" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Other\doorGreen_lock.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Other\doorOpen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="key2" sid="626440053070799">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="155643579496021" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\key.png">
+                        <collision-poly>
+                            <point x="0.311111" y="0.311111" />
+                            <point x="0.488889" y="0.0666667" />
+                            <point x="0.866667" y="0.133333" />
+                            <point x="0.933333" y="0.488889" />
+                            <point x="0.711111" y="0.711111" />
+                            <point x="0.488889" y="0.733333" />
+                            <point x="0.0666667" y="0.933333" />
+                            <point x="0.311111" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lineLight" sid="765695766966549">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893499568325891" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Control\lineLight\lineLight22.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lineLight2" sid="316647836670752">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="390660469665818" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Control\lineLight\lineLight23.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lineLight3" sid="159426403183846">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="504427693707742" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Control\lineLight\lineLight24.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="landscape1844229_960_" sid="947272320819218">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="122280441586272" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Fauzi\Pictures\project\landscape-1844229_960_720.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00107411" y="0.998611" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground5" sid="927806798239603">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="741228709868390">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_03.png" />
+        </object-type>
+        <object-type name="TiledBackground6" sid="259355627873825">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="145334949797120">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_05.png" />
+        </object-type>
+        <object-type name="tileGreen_2" sid="532464909984156">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="550643904026902">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="320649560591731" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_06.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_3" sid="149311886919594">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="293910579732018">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400326924082436" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_15.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.953125" />
+                            <point x="0.203125" y="0.796875" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_16.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.796875" y="0.796875" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_4" sid="855047795433840">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="403739646933412" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_18.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_5" sid="268322810114197">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="511977551713514">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="909392436241978" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_11.png">
+                        <collision-poly>
+                            <point x="0.96875" y="0.015625" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_6" sid="920200764421754">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="825336918905193">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="384689941479392" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_07.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_7" sid="396654514121539">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="748769208070846">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="644513655834560" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_04.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_06.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_8" sid="710708855629212">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="695086484017627">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="753663632993589" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_24.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.359375" y="0.640625" />
+                            <point x="0.140625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_25.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.859375" y="0.5" />
+                            <point x="0.640625" y="0.640625" />
+                            <point x="0.5" y="0.703125" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_9" sid="494212771346364">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="180437591647831" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_19.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_10" sid="965533413601115">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="599408166426481" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_21.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_11" sid="936034015124863">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624036408036814" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_12.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.515625" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_12" sid="570496836516363">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="987013359389394" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_10.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileGreen_13" sid="548834926785920">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667688597091242" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Green tiles\tileGreen_19.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_" sid="147804073778670">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="630246591419686" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button\Button_46.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.902174" y="0.09375" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0.0108696" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LevelSelanjutnya" sid="868747342124659">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="454312214884299" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button\Button_48.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="135420765388336">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Function" sid="436717423103196">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="Button_2" sid="915886098563121">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="298344275981345" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button 2\Button_09.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0684211" />
+                            <point x="0.497268" y="0" />
+                            <point x="0.912568" y="0.0842105" />
+                            <point x="0.972678" y="0.5" />
+                            <point x="0.896175" y="0.9" />
+                            <point x="0.497268" y="0.952632" />
+                            <point x="0.0874317" y="0.915789" />
+                            <point x="0.00546448" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button 2\Button_12.png">
+                        <collision-poly>
+                            <point x="0.0714286" y="0.0684211" />
+                            <point x="0.5" y="0" />
+                            <point x="0.912088" y="0.0842105" />
+                            <point x="0.978022" y="0.5" />
+                            <point x="0.895604" y="0.9" />
+                            <point x="0.5" y="0.952632" />
+                            <point x="0.0879121" y="0.915789" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TmblMusic" sid="835948897383651">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="377295701596852" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button 2\Button_10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button 2\Button_12.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TmblSound" sid="106156936535543">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="354175901673217" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button 2\Button_14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button 2\Button_16.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundMenu" sid="517487339883063">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974006566562328" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\backgroundMenu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundMenu2" sid="133795578899937">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="990083889100742" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\extra\backgroundMenu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundMenu3" sid="637908716946081">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181817620035617" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Fauzi\Pictures\project\background menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TombolMain" sid="542725374188744">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="940757451756063" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button\Play2.png">
+                        <collision-poly>
+                            <point x="0.037037" y="0.0824742" />
+                            <point x="0.5" y="0.0103093" />
+                            <point x="0.958333" y="0.0927835" />
+                            <point x="0.986111" y="0.494845" />
+                            <point x="0.949074" y="0.886598" />
+                            <point x="0.5" y="0.938144" />
+                            <point x="0.0462963" y="0.896907" />
+                            <point x="0.00925926" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.683721" hotspotY="0.773196" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button\Play1.png">
+                        <collision-poly>
+                            <point x="0.0372093" y="0.0824742" />
+                            <point x="0.497674" y="0.0206186" />
+                            <point x="0.95814" y="0.0927835" />
+                            <point x="0.990698" y="0.494845" />
+                            <point x="0.953488" y="0.896907" />
+                            <point x="0.497674" y="0.948454" />
+                            <point x="0.0418605" y="0.907216" />
+                            <point x="0.00930233" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Window_" sid="569021161219336">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="319847593882824" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\level select\Window_03.png">
+                        <collision-poly>
+                            <point x="0.0948276" y="0.11828" />
+                            <point x="0.5" y="0" />
+                            <point x="0.905172" y="0.11828" />
+                            <point x="0.989943" y="0.5" />
+                            <point x="0.979885" y="0.97491" />
+                            <point x="0.0158046" y="0.980287" />
+                            <point x="0.00143678" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="l" sid="251678518242615">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="485838875979923" speed="5">
+                    <frame duration="1" hotspotX="0.504951" hotspotY="0.511628" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\level select\l.png">
+                        <collision-poly>
+                            <point x="0.00990099" y="0.0232558" />
+                            <point x="0.49505" y="0.418605" />
+                            <point x="0.970297" y="0.0697674" />
+                            <point x="0.980198" y="0.488372" />
+                            <point x="0.960396" y="0.906977" />
+                            <point x="0.49505" y="0.976744" />
+                            <point x="0.029703" y="0.930233" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="l2" sid="703626363812543">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="821945289473072" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\level select\l2.png">
+                        <collision-poly>
+                            <point x="0.0588235" y="0.186047" />
+                            <point x="0.5" y="0.162791" />
+                            <point x="0.919118" y="0.255814" />
+                            <point x="0.963235" y="0.488372" />
+                            <point x="0.970588" y="0.906977" />
+                            <point x="0.0294118" y="0.906977" />
+                            <point x="0.0294118" y="0.488372" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont2" sid="850854620768686">
+            <plugin id="Spritefont2" />
+            <texture original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\Spritesheet\spritesheet_complete.png" />
+        </object-type>
+        <object-type name="SpriteFont3" sid="396743898591312">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="SpriteFont4" sid="821513848825804">
+            <plugin id="Spritefont2" />
+            <texture original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\SpriteFont\SpriteFont_Vogue_ExtraBold_(50)_[0,0,0,0]_55x60.png" />
+        </object-type>
+        <object-type name="Button_3" sid="405409858047581">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="445856012120117" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button\Button_53.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.913043" y="0.0833333" />
+                            <point x="0.978261" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0978261" y="0.90625" />
+                            <point x="0.0108696" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\gui\button\Button_51.png">
+                        <collision-poly>
+                            <point x="0.0752688" y="0.0729167" />
+                            <point x="0.494624" y="0.0104167" />
+                            <point x="0.903226" y="0.09375" />
+                            <point x="0.967742" y="0.5" />
+                            <point x="0.892473" y="0.895833" />
+                            <point x="0.494624" y="0.947917" />
+                            <point x="0.0967742" y="0.90625" />
+                            <point x="0.0107527" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_4" sid="550527229613204">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="lev" sid="492518389537299" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="364538437756850" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\level select\Button_03.png">
+                        <collision-poly>
+                            <point x="0.0729927" y="0.0699301" />
+                            <point x="0.49635" y="0" />
+                            <point x="0.912409" y="0.0839161" />
+                            <point x="0.978102" y="0.496504" />
+                            <point x="0.89781" y="0.902098" />
+                            <point x="0.49635" y="0.951049" />
+                            <point x="0.0875912" y="0.916084" />
+                            <point x="0" y="0.496504" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\GUI\level select\Button_05.png">
+                        <collision-poly>
+                            <point x="0.0724638" y="0.0699301" />
+                            <point x="0.5" y="0" />
+                            <point x="0.905797" y="0.0909091" />
+                            <point x="0.971014" y="0.496504" />
+                            <point x="0.891304" y="0.895105" />
+                            <point x="0.5" y="0.951049" />
+                            <point x="0.0869565" y="0.916084" />
+                            <point x="0.00724638" y="0.496504" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LocalStorage" sid="849194903393522">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type name="BromoSunrise_zps872e73f" sid="142293491357931">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="331421005634634" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Fauzi\Pictures\project\BromoSunrise_zps872e73f3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_" sid="109911951641480">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="957232263108040" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_18.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_2" sid="475673576167393">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="386858893404015">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="354677617202297" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_27.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_3" sid="464069090424202">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="621111419738681" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_01.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_03.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_27.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_4" sid="447461679922640">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="183869032356130">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="659756609033145" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_01.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_03.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_5" sid="693770417247552">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="246367945135462">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352174015760301" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_02.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_6" sid="531703298757266">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="980113367177333">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911836032580032" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_16.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.890625" />
+                            <point x="0.3125" y="0.6875" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_17.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0.6875" y="0.6875" />
+                            <point x="0.5" y="0.875" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_7" sid="618259318013887">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213232491990579" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_13.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_8" sid="930971080140105">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="608659016027604">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="928810807734527" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_08.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0754717" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0754717" />
+                            <point x="1" y="0.490566" />
+                            <point x="0.90625" y="0.886792" />
+                            <point x="0.5" y="0.981132" />
+                            <point x="0.09375" y="0.886792" />
+                            <point x="0" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_9" sid="334069331301228">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950625044175637" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_22.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_10" sid="565080298427519">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="393392743449405">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="162927207657019" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_04.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_11" sid="101445048322317">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="670304488147513" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_12.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBrown_12" sid="617215564501861">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="743424384632768">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="201674084642009" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Brown tiles\tileBrown_21.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="skyscraper152196_960_" sid="686833201079085">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="556868893502661" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Fauzi\Pictures\project\skyscraper-152196_960_720.png">
+                        <collision-poly>
+                            <point x="0.01875" y="0.0375" />
+                            <point x="0.98125" y="0.0375" />
+                            <point x="0.994792" y="0.5" />
+                            <point x="0.98125" y="0.9625" />
+                            <point x="0.01875" y="0.9625" />
+                            <point x="0.00208333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_" sid="266391830930029">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741973433382422" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_03.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_2" sid="550948515888181">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="922255672689826">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="935317479144597" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_04.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_3" sid="617383269802983">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="812637600150769">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="472124572079804" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_06.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_4" sid="282715015844283">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="732922348355772">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700338437820931" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_05.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_5" sid="665879179369372">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="456017067886857">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736443695870757" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_15.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.953125" />
+                            <point x="0.203125" y="0.796875" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_6" sid="947825136085857">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="936092253791925">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="847739015100778" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_16.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.796875" y="0.796875" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_7" sid="947414895553059">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="292226354798010">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963181943053093" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_19.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_8" sid="276998683514902">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="240990482544424">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="900357603485794" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_10.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_9" sid="496330796262608">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="699214993774477">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945565444483699" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_25.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.859375" y="0.5" />
+                            <point x="0.640625" y="0.640625" />
+                            <point x="0.5" y="0.703125" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_10" sid="266066669070008">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="123536638437354">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716356715603158" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_24.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_11" sid="726294605073186">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="530222522916006">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="713959251994004" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_07.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_12" sid="859424913154632">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="266367413351471">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="327471358032520" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_09.png">
+                        <collision-poly>
+                            <point x="0.46875" y="0.46875" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_13" sid="294609763065296">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="962232031152536">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="822112310888086" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_26.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.08" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.90625" y="0.88" />
+                            <point x="0.03125" y="0.96" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tileBlue_14" sid="999567918076576">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="603428750410619">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="599396895071841" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\Abstract Platformer\PNG\Tiles\Blue tiles\tileBlue_01.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.08" />
+                            <point x="1" y="0.5" />
+                            <point x="0.90625" y="0.88" />
+                            <point x="0.03125" y="0.96" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="477923297598269">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SpriteFont5" sid="945047799194918">
+            <plugin id="Spritefont2" />
+            <texture original-source="C:\Users\Fauzi\Downloads\Compressed\Platformer\SpriteFont\SpriteFont_Vogue_ExtraBold_(50)_[0,0,0,0]_55x60.png" />
+        </object-type>
+        <object-type name="SpriteFont6" sid="911634129410306">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>level 1.xml</layout>
+        <layout>level 2.xml</layout>
+        <layout>Level 3.xml</layout>
+        <layout>level 4.xml</layout>
+        <layout>menu.xml</layout>
+        <layout>PilihLevel.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>eventGame.xml</event-sheet>
+        <event-sheet>eventMenu.xml</event-sheet>
+        <event-sheet>EventLevel.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="3" />
+        <global-instance type="Touch" uid="59">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="171">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Function" uid="172" />
+        <global-instance type="LocalStorage" uid="195" />
+    </global-instances>
+    <sounds-folder>
+        <file name="Collect Gem.m4a" />
+        <file name="Collect Gem.ogg" />
+        <file name="Collect Key.m4a" />
+        <file name="Collect Key.ogg" />
+        <file name="EnemyHit.m4a" />
+        <file name="EnemyHit.ogg" />
+        <file name="Hit.m4a" />
+        <file name="Hit.ogg" />
+        <file name="Jingle Lose.m4a" />
+        <file name="Jingle Lose.ogg" />
+        <file name="Jingle Win.m4a" />
+        <file name="Jingle Win.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="MattOglseby - 1.m4a" />
+        <file name="MattOglseby - 1.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
